@@ -1,6 +1,5 @@
 class Car
-  attr_accessor :year
-  attr_accessor :model
+  attr_accessor :year, :model
   def initialize(model, year)
     @model = model
     @year = year
